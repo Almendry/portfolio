@@ -64,9 +64,9 @@ header nav ul li a:hover {
 
 /* Hero Section */
 #hero {
-    background: url('portfolio/imagen/principal.jpg') no-repeat center center;
-    background-size: 100% 100%;
-    color: orange;
+    background: url("imagen/principal.jpg") no-repeat center center;
+	background-size: 100% 100%;
+    color: #fff;
     height: 100vh;
     display: flex;
     align-items: center;

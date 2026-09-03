@@ -2,206 +2,2127 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio ASIR - [Alejandro Mendoza Rodríguez]</title>
-    <link rel="stylesheet" href="styles.css">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Portfolio profesional de Alejandro Mendoza Rodríguez, Técnico de Sistemas Informáticos especializado en infraestructura, virtualización, monitorización, backups y soporte IT."
+    >
+
+    <meta
+        name="author"
+        content="Alejandro Mendoza Rodríguez"
+    >
+
+    <title>
+        Alejandro Mendoza | Técnico de Sistemas Informáticos
+    </title>
+
+    <!-- =========================
+         GOOGLE FONTS
+    ========================== -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- =========================
+         CSS
+    ========================== -->
+    <link
+        rel="stylesheet"
+        href="styles.css"
+    >
 </head>
+
+
 <body>
-    <header>
-        <div class="container">
-            <h1>Portafolio AMR</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">Sobre mí</a></li>
-                    <li><a href="#skills">Habilidades</a></li>
-                    <li><a href="#projects">Proyectos</a></li>
-                    <li><a href="#contact">Contacto</a></li>
-                </ul>
+
+    <!-- =========================================
+         BACKGROUND
+    ========================================== -->
+
+    <div class="background-grid"></div>
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+
+    <!-- =========================================
+         HEADER / NAVBAR
+    ========================================== -->
+
+    <header class="site-header">
+
+        <div class="container nav-container">
+
+            <a
+                href="#inicio"
+                class="logo"
+            >
+                <span class="logo-symbol">&lt;/&gt;</span>
+                <span>AMR</span>
+            </a>
+
+
+            <nav class="nav-links">
+
+                <a href="#inicio">
+                    Inicio
+                </a>
+
+                <a href="#sobre-mi">
+                    Sobre mí
+                </a>
+
+                <a href="#experiencia">
+                    Experiencia
+                </a>
+
+                <a href="#skills">
+                    Skills
+                </a>
+
+                <a href="#proyectos">
+                    Proyectos
+                </a>
+
+                <a href="#formacion">
+                    Formación
+                </a>
+
+                <a
+                    href="#contacto"
+                    class="nav-contact"
+                >
+                    Contacto
+                </a>
+
             </nav>
+
         </div>
+
     </header>
 
-    <section id="hero">
-        <div class="hero-content">
-            <h2>Hola, soy Alejandro Mendoza Rodríguez</h2>
-            <p>Administrador de Sistemas y Redes</p>
-            <a href="#contact" class="btn">Contáctame</a>
-        </div>
-    </section>
 
-    <section id="about" class="section-padding">
-        <div class="container">
-            <h2>Sobre mí</h2>
-            <p>Hola, soy Alejandro Mendoza Rodríguez, un profesional en Administración de Sistemas Informáticos en Red (ASIR) con experiencia en la gestión y mantenimiento de sistemas informáticos, redes, y seguridad informática.</p>
-			<p>La experiencia que tengo profesionalmente es:</p>
-			<h3>Tecnico del laboratorio en Solmate</h3>
-			<h4>Soltec Energías Renovables, Molina de segura (Murcia)</h4>
-			<p>• Diagnostico en banco.</p>
-			<p>• Reprogramación de electrónica.</p>
-			<p>• Diagnóstico y reparación de servidores en armarios Rack.</p>
-			<p>• Reinstalación de servidores en armarios Rack.</p>
-			<p>• Teste de calidad mediante banco Q Test.</p>
-			<p>• Gestión de tickets mediante la plataforma Solmate.</p>
-			<p>• Elaboración de presupuestos. Realizar informes técnicos requeridos.</p>
-			<p>• Reparación de la electrónica en banco.</p>
-			<h3>Administrador de Sistemas en manufactura</h3>
-			<h4>Soltec Energías Renovables, Molina de segura (Murcia)</h4>
-			<p>• Resolución y soporte de incidencias en servidores: Incidencias de sistemas Linux,
-			comunicaciones, Virtualización, NTP, Sistemas UPS...</p>
-			<p>• Mantenimiento y actualizaciones del SCADA: Actualizaciones, Controladores,
-			Análisis de incidencias, monitorización y mantenimiento preventivo.</p>
-			<p>• Documentación: Creación de procedimientos, Documentación interna, guías
-			técnicas.</p>
-			<p>• Validación: Test de equipos, Hardware alternativo.</p>
-			<p>• Ensamblar el pc-server, switch y otros dispositivos en el rack 19".</p>
-			<p>• Configurar el switch, NTP Server, y UPS.</p>
-			<p>• Instalar el sistema VMWare en el pc-server.</p>
-			<p>• Instalar el sistema Linux en el PC-cliente-HMI.</p>
-			<p>• Gestión de material (comprobación de cantidad y calidad)</p>
-			<h3>Técnico informático en prácticas (Grado superior)</h3>
-			<h4>Romacho centro comarcal, Guadix (Granada)</h4>
-			<p>• Montaje de equipos y puesta en marcha.</p>
-			<p>• Soporte de Windows.</p>
-			<p>• Mantenimiento de equipos a todos los niveles.<p>
-			<p>• Reparación de equipos de Apple.</p>
-			<p>• Reparación de dispositivos móviles.</p>
-			<p>• Limpieza de virus en equipos.</p>
-			<h3>Técnico informático en prácticas (Grado medio)</h3>
-			<h4>Romacho centro comarcal, Guadix (Granada)</h4>
-			<p>• Mantenimiento de equipos.</p>
-			<p>• Reparación de ordenadores.</p>
-			<p>• Puesta en marcha de equipos.</p>
-			<p>• Instalación de aplicaciones en dispositivos (Móviles y ordenadores).</p>
-			<h3>Educación</h3>
-			<p>También me gustaría detallar mi educación, ya que tengo una formación bien enfocada en el sector:
-			<h4>Técnico Superior en Administración de Sistemas Informáticos en Red (ASIR) obtenido en el IES Padre Poveda de Guadix (Granada)</h4>
-			<p>En este ciclo formativo aprendí a administrar y crear servidores tanto en Windows como en
-			Linux, realización de seguridad informática, crear y administrar bases de datos, creación de
-			páginas web básicas y distintas plantillas para administrar estas, y creación y administración de redes.</p>
-			<h4>Grado medio de Sistemas Microinformáticos en Red (SMR) obtenido en el IES Padre Poveda de Guadix (Granada)</h4>
-			<p>En este ciclo formativo aprendí a montar y mantener ordenadores, configurar redes, formatear
-			ordenadores e instalar programas, y creación de páginas web básicas.</p>
-			<h4>3 títulos de CISCO (CCNA I y II Routing and Switching, y CCNA Redes básicas) conseguidos en el IES Padre Poveda de Guadix (Granada)</h4>
-			<p>Estos tres títulos estan especializados en:</p>
-			<p>	- Administrar redes locales con direcciones IP.</p>
-			<p>	- Administración de redes en empresas.</p>
-			<p>	- Administración de redes básicas.</p>
-			<p>	- Obtenidos mientras realizaba del Grados medio y superior de informática.
-			<h4>Educación secundaria obligatoria (ESO)con obtención es el IES ACCI de Guadix (Granada)</h4>
-			<p>Se me daba bien la educación física, artística, ciencias naturales, historia y la que más,informática.<p>
-			<h4>Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL, título de UDEMY</h4>
-			<p>En este curso aprendí a crear páginas web de mejor forma con lenguajes de programación de éstas.<p>
-			<h4>Curso de Introducción a la Ciberseguridad título de Cisco</h4>
-			<p>En este curso aprendí los peligros de ciberseguridad que nos exponemos día a día y los que se
-			expone una empresa y por ende a cómo tratar de minimizarlos.</p>
-		</div>
-    </section>
 
-    <section id="skills" class="section-padding bg-light">
-        <div class="container">
-            <h2>Habilidades</h2>
-            <div class="skills-grid">
-                <div class="skill-item">
-                    <h3>Administración de Servidores</h3>
-                    <p>Conocimientos en administración de servidores Linux y Windows. Utilizando herramientas de correo de ambos sistemas, alta redundancia, Directorio activo, Docker y kubernetes...</p>
+    <!-- =========================================
+         MAIN
+    ========================================== -->
+
+    <main>
+
+
+        <!-- =====================================
+             HERO
+        ====================================== -->
+
+        <section
+            id="inicio"
+            class="hero section"
+        >
+
+            <div class="container hero-grid">
+
+
+                <!-- HERO TEXT -->
+
+                <div class="hero-content">
+
+                    <div class="status-badge">
+
+                        <span class="status-dot"></span>
+
+                        <span>
+                            DISPONIBLE PARA NUEVOS RETOS
+                        </span>
+
+                    </div>
+
+
+                    <p class="eyebrow">
+                        SISTEMAS · INFRAESTRUCTURA · SOPORTE IT
+                    </p>
+
+
+                    <h1>
+
+                        Técnico de Sistemas
+
+                        <span>
+                            con experiencia en infraestructura, virtualización y soporte IT.
+                        </span>
+
+                    </h1>
+
+
+                    <p class="hero-description">
+
+                        Soy
+                        <strong>
+                            Alejandro Mendoza Rodríguez
+                        </strong>,
+
+                        Técnico de Sistemas Informáticos con
+                        experiencia en infraestructura,
+                        virtualización, monitorización,
+                        backups, servidores y soporte IT.
+
+                    </p>
+
+
+                    <div class="hero-actions">
+
+                        <a
+                            href="#experiencia"
+                            class="button button-primary"
+                        >
+                            Ver experiencia
+                            <span>→</span>
+                        </a>
+
+
+                        <a
+                            href="#contacto"
+                            class="button button-secondary"
+                        >
+                            Contactar
+                        </a>
+
+                    </div>
+
+
+                    <div class="hero-tags">
+
+                        <span>VMware</span>
+                        <span>Veeam</span>
+                        <span>Linux</span>
+                        <span>Windows Server</span>
+                        <span>Monitoring</span>
+
+                    </div>
+
                 </div>
-                <div class="skill-item">
-                    <h3>Gestión de Redes</h3>
-                    <p>Configuración y mantenimiento de redes, configuración de Switch, montaje y configuración de armarios Rack, creación de Vlans, comunicación de equipos en oficiona...</p>
+
+
+
+                <!-- TERMINAL -->
+
+                <div class="terminal-window">
+
+                    <div class="terminal-header">
+
+                        <div class="terminal-buttons">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+                        <span class="terminal-title">
+                            alejandro@systems:~
+                        </span>
+
+                    </div>
+
+
+                    <div class="terminal-body">
+
+                        <p>
+                            <span class="terminal-green">
+                                alejandro@systems
+                            </span>
+                            :
+                            <span class="terminal-blue">
+                                ~
+                            </span>
+                            $
+                            whoami
+                        </p>
+
+
+                        <p class="terminal-output">
+                            Técnico de Sistemas Informáticos
+                        </p>
+
+
+                        <p>
+                            <span class="terminal-green">
+                                alejandro@systems
+                            </span>
+                            :
+                            <span class="terminal-blue">
+                                ~
+                            </span>
+                            $
+                            skills
+                        </p>
+
+
+                        <p class="terminal-output">
+                            VMware
+                        </p>
+
+                        <p class="terminal-output">
+                            Veeam Backup
+                        </p>
+
+                        <p class="terminal-output">
+                            Commvault
+                        </p>
+
+                        <p class="terminal-output">
+                            Nagios / Centreon
+                        </p>
+
+                        <p class="terminal-output">
+                            ControlUP / Horizon
+                        </p>
+
+                        <p class="terminal-output">
+                            Linux / Windows
+                        </p>
+
+
+                        <p>
+                            <span class="terminal-green">
+                                alejandro@systems
+                            </span>
+                            :
+                            <span class="terminal-blue">
+                                ~
+                            </span>
+                            $
+                            status
+                        </p>
+
+
+                        <p class="terminal-success">
+                            ● SYSTEMS ONLINE
+                        </p>
+
+
+                        <p class="terminal-cursor">
+                            _
+                        </p>
+
+                    </div>
+
                 </div>
-                <div class="skill-item">
-                    <h3>Virtualización</h3>
-                    <p>Virtualización con VMware, Hyper-V y Virtualbox, exportación e importación de máquinas virtuales en servidor, creación y comunicación de maquinas virtuales.</p>
-                </div>
-                <div class="skill-item">
-                    <h3>Técnico informático</h3>
-                    <p>Montaje, diagnóstico y reparación de ordenadores y puesta en marcha de equipos Informáticos.</p>
-                </div>
-				<div class="skill-item">
-                    <h3>Programación</h3>
-                    <p>Conocimiento y manejo de los lenguajes; HTML, CSS, PHP, MySQL, y base de Pythom.</p>
-                </div>
-				<div class="skill-item">
-                    <h3>Diseño Web</h3>
-                    <p>Manejo de los leguajes ya mencionados y de las plantillas de Wordpress y Joomla.</p>
-                </div>
-				<div class="skill-item">
-                    <h3>Bases de datos</h3>
-                    <p>Diseño y manejo de bases de datos con PHP, MySQL, phpMyAdmin y servidor Apache.</p>
-                </div>
-				<div class="skill-item">
-                    <h3>Adaptabilidad</h3>
-                    <p>Habilidad para adaptarme distintas situaciones y puestos a nuevas tecnologías que vayan surgiendo para mejorar mi nivel profesional y productividad.</p>
-                </div>
+
             </div>
-        </div>
-    </section>
 
-    <section id="projects" class="section-padding">
-        <div class="container">
-            <h2>Proyectos</h2>
-            <div class="projects-grid">
-                <div class="project-item">
-                    <h3>Técnico informático por cuenta propia</h3>
-                    <p>Experiencia adquirida mediante la realización de proyectos propios:</p>
-					<p>• Creación de páginas web básicas.</p>
-					<p>• Montajes de equipos informáticos.</p>
-					<p>• Montar redes en servidores de Linux y Windows.</p>
-					<p>• Cambios de componentes hardware de ordenadores y copias de seguridad.</p>
-					<p>• Instalación de equipos informáticos para oficina.</p>
-					<p>• Creación de documentación de microinformática:</p>
-					<p> - Documento de cómo formatear e instalar Windows 11, sin crear una cuenta en Microsoft<a href="Documentos/Instalar Windows 11 sin cuenta.pdf" download="Instalar Windows 11 sin cuenta.pdf"> Descargar</a></p>
-					<p> - Documento de cómo reparar un disco duro<a href="Documentos/Manual de diagnostico de discos duros.pdf" download="Manual de diagnostico de discos durospdf"> Descargar</a></p>
+        </section>
+
+
+
+        <!-- =====================================
+             SOBRE MÍ
+        ====================================== -->
+
+        <section
+            id="sobre-mi"
+            class="section section-dark"
+        >
+
+            <div class="container">
+
+
+                <div class="section-heading">
+
+                    <p class="section-number">
+                        01
+                    </p>
+
+                    <div>
+
+                        <p class="eyebrow">
+                            PERFIL
+                        </p>
+
+                        <h2>
+                            Sobre mí
+                        </h2>
+
+                    </div>
+
                 </div>
-                <div class="project-item">
-                    <h3>Pruebas y estudios en ciberseguridad</h3>
-					<p>Realización de varios estudios de la ciberseguridad y vulnerabilidades que hay a dia de hoy y ponen en riesgo la ciberseguridad de los indivíduos y de las empresas, que que hoy día en caso de una obtención de datos
-					que puedan ser privados puede conllevar un chantajes, tanto a una empresa como a la persona afectada.</p>
-					<p>Mis proyectos en este ambito son:</p>
-					<p>• Estudio de seguridad en el sistema Android<a href="Documentos/Estudio de Android.pdf" download="Estudio de Android.pdf"> Descargar</a></p>
-					<p>• Estudio sobre el virus Spectre<a href="Documentos/Estudio de Spectre.pdf" download="Estudio de Spectre.pdf"> Descargar</a></p>
-					<p>• Detección e intrusos<a href="Documentos/Detección de intrusos.pdf" download="Detección de intrusos.pdf"> Descargar</a></p>
-					<p>• Destruir contraseñas en Windows y Linux<a href="Documentos/Destruir contraseñas de Windows y Linux.pdf" download="Destruir contraseñas de Windows y Linux.pdf"> Descargar</a></p>
-					<p>• Hacer pentesting con Kali Linux<a href="Documentos/Pentesting con Kali Linux.pdf" download="Pentesting con Kali Linux.pdf"> Descargar</a></p>
+
+
+                <div class="about-grid">
+
+
+                    <div class="about-text">
+
+                        <p class="lead">
+
+                            Profesional del área de sistemas
+                            informáticos con experiencia en
+                            entornos empresariales, virtualización,
+                            monitorización, copias de seguridad,
+                            servidores y soporte técnico.
+
+                        </p>
+
+
+                        <p>
+
+                            Mi experiencia profesional me ha
+                            permitido trabajar con infraestructuras
+                            virtualizadas, sistemas Linux y Windows,
+                            herramientas de monitorización,
+                            plataformas de backup y sistemas de
+                            soporte e incidencias.
+
+                        </p>
+
+
+                        <p>
+
+                            Me considero una persona orientada al
+                            aprendizaje continuo, resolutiva y con
+                            capacidad para trabajar tanto en equipo
+                            como de forma autónoma.
+
+                        </p>
+
+
+                        <p>
+
+                            Busco seguir creciendo profesionalmente
+                            y aportar mis conocimientos técnicos
+                            dentro de equipos donde pueda continuar
+                            desarrollándome.
+
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="about-card">
+
+                        <div class="card-header">
+
+                            <span class="card-icon">
+                                ◈
+                            </span>
+
+                            <span>
+                                SYSTEM_PROFILE
+                            </span>
+
+                        </div>
+
+
+                        <div class="profile-list">
+
+                            <div class="profile-item">
+
+                                <span>
+                                    Perfil
+                                </span>
+
+                                <strong>
+                                    Técnico de Sistemas
+                                </strong>
+
+                            </div>
+
+
+                            <div class="profile-item">
+
+                                <span>
+                                    Especialidad
+                                </span>
+
+                                <strong>
+                                    Infraestructura IT
+                                </strong>
+
+                            </div>
+
+
+                            <div class="profile-item">
+
+                                <span>
+                                    Virtualización
+                                </span>
+
+                                <strong>
+                                    VMware
+                                </strong>
+
+                            </div>
+
+
+                            <div class="profile-item">
+
+                                <span>
+                                    Sistemas
+                                </span>
+
+                                <strong>
+                                    Linux / Windows
+                                </strong>
+
+                            </div>
+
+
+                            <div class="profile-item">
+
+                                <span>
+                                    Monitoring
+                                </span>
+
+                                <strong>
+                                    ControlUP / Centreon
+                                </strong>
+
+                            </div>
+
+
+                            <div class="profile-item">
+
+                                <span>
+                                    Backup
+                                </span>
+
+                                <strong>
+                                    Veeam / Commvault
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
                 </div>
-                 <div class="project-item">
-                    <h3>Sistemas y servidores</h3>
-					<p>Realización de pruebas e infraestructuras con sistemas informáticos y servidores.</p>
-					<p>En estos proyectos vi no sólo lo bueno que es hacer infraestructuras con servidores, si no también las herramientas que tenemos para dar soporte a estos:</p>
-					<p>• Alta disponibilidad con VMWare ESXi<a href="Documentos/Alta disponibilidad con ESXI.pdf" download="Alta disponibilidad con ESXI.pdf"> Descargar</a></p>
-					<p>• Proxmox<a href="Documentos/proxmox.pdf" download="PROXMOX.pdf"> Descargar</a></p>
-					<p>• Freenas<a href="Documentos/FREENAS.pdf" download="FREENAS.pdf"> Descargar</a></p>
-                </div>
+
             </div>
-        </div>
-    </section>
 
-    <section id="contact" class="section-padding bg-light" align="center">
-        <div class="container">
-            <h2>Contacto</h2>
-            <h3>Estoy disponible para nuevos proyectos y colaboraciones.</h3>
-			<p>Ubicado en: Murcia</p>
-			 <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50645.40935944032!2d-1.1866811489428575!3d37.99223927963505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd637537547cdfab%3A0x584c5c1d109ee513!2sMurcia!5e0!3m2!1ses!2ses!4v1691689473057!5m2!1ses!2ses" 
-            width="600" 
-            height="450" 
-            style="border:0;" 
-            allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade">
-			</iframe>
-			<p>Puedes contactarme a través del siguiente correo:<a href="mailto:informaticamendoza97@gmail.com">informaticamendoza97@gmail.com</a></p>
-			<p>Teléfono de contacto: 661015466</p>
-        </div>
-    </section>
+        </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Alejandro Mendoza Rodríguez. Todos los derechos reservados.</p>
+
+
+        <!-- =====================================
+             EXPERIENCIA
+        ====================================== -->
+
+        <section
+            id="experiencia"
+            class="section"
+        >
+
+            <div class="container">
+
+
+                <div class="section-heading">
+
+                    <p class="section-number">
+                        02
+                    </p>
+
+                    <div>
+
+                        <p class="eyebrow">
+                            TRAYECTORIA
+                        </p>
+
+                        <h2>
+                            Experiencia profesional
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="timeline">
+
+
+                    <!-- INETUM -->
+
+                    <article class="experience-card">
+
+                        <div class="experience-marker">
+                            01
+                        </div>
+
+
+                        <div class="experience-content">
+
+                            <div class="experience-top">
+
+                                <div>
+
+                                    <p class="experience-date">
+                                        2025 — Actualidad
+                                    </p>
+
+                                    <h3>
+                                        Técnico de Soporte IT
+                                    </h3>
+
+                                    <p class="company">
+                                        INETUM · Murcia
+                                    </p>
+
+                                </div>
+
+                                <span class="experience-type">
+                                    IT SUPPORT
+                                </span>
+
+                            </div>
+
+
+                            <p class="experience-description">
+
+                                Soporte IT en entornos virtualizados,
+                                gestión de incidencias y mantenimiento
+                                de sistemas y documentación técnica.
+
+                            </p>
+
+
+                            <div class="experience-skills">
+
+                                <span>GLPI</span>
+                                <span>VMware</span>
+                                <span>VRops</span>
+                                <span>Veeam</span>
+                                <span>Carbon Black</span>
+                                <span>ControlUP</span>
+                                <span>Horizon</span>
+                                <span>TeamPass</span>
+
+                            </div>
+
+
+                            <ul class="experience-list">
+
+                                <li>
+                                    Gestión y seguimiento de
+                                    incidencias mediante GLPI.
+                                </li>
+
+                                <li>
+                                    Revisión de copias de seguridad
+                                    mediante Veeam.
+                                </li>
+
+                                <li>
+                                    Control de amenazas mediante
+                                    Carbon Black.
+                                </li>
+
+                                <li>
+                                    Administración y soporte de
+                                    entornos VMware y VRops.
+                                </li>
+
+                                <li>
+                                    Monitorización mediante ControlUP.
+                                </li>
+
+                                <li>
+                                    Gestión de entornos Horizon
+                                    de escritorio remoto.
+                                </li>
+
+                                <li>
+                                    Gestión de contraseñas mediante
+                                    TeamPass.
+                                </li>
+
+                                <li>
+                                    Elaboración y mantenimiento de
+                                    documentación de sistemas.
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- KIO -->
+
+                    <article class="experience-card">
+
+                        <div class="experience-marker">
+                            02
+                        </div>
+
+
+                        <div class="experience-content">
+
+                            <div class="experience-top">
+
+                                <div>
+
+                                    <p class="experience-date">
+                                        Oct 2024 — Abr 2025
+                                    </p>
+
+                                    <h3>
+                                        Operador de Sistemas Junior
+                                    </h3>
+
+                                    <p class="company">
+                                        KIO NETWORK · Murcia
+                                    </p>
+
+                                </div>
+
+                                <span class="experience-type">
+                                    SYSTEMS
+                                </span>
+
+                            </div>
+
+
+                            <p class="experience-description">
+
+                                Operación, monitorización y soporte
+                                de sistemas e infraestructuras
+                                empresariales.
+
+                            </p>
+
+
+                            <div class="experience-skills">
+
+                                <span>JIRA</span>
+                                <span>Nagios</span>
+                                <span>Centreon</span>
+                                <span>Commvault</span>
+                                <span>VMware</span>
+                                <span>Windows</span>
+                                <span>Linux</span>
+
+                            </div>
+
+
+                            <ul class="experience-list">
+
+                                <li>
+                                    Gestión de incidencias mediante
+                                    JIRA.
+                                </li>
+
+                                <li>
+                                    Recepción, análisis, priorización
+                                    y escalado de alertas.
+                                </li>
+
+                                <li>
+                                    Monitorización de sistemas con
+                                    Nagios y Centreon.
+                                </li>
+
+                                <li>
+                                    Instalación y actualización de
+                                    software en servidores.
+                                </li>
+
+                                <li>
+                                    Arranque, parada y reinicio de
+                                    servidores de aplicaciones y web.
+                                </li>
+
+                                <li>
+                                    Gestión de copias de seguridad y
+                                    restauraciones con Commvault.
+                                </li>
+
+                                <li>
+                                    Trabajo con entornos virtualizados
+                                    VMware.
+                                </li>
+
+                                <li>
+                                    Gestión de usuarios, grupos y roles.
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- SOLTEC -->
+
+                    <article class="experience-card">
+
+                        <div class="experience-marker">
+                            03
+                        </div>
+
+
+                        <div class="experience-content">
+
+                            <div class="experience-top">
+
+                                <div>
+
+                                    <p class="experience-date">
+                                        Ago 2022 — Sep 2024
+                                    </p>
+
+                                    <h3>
+                                        Administrador de Sistemas y Tecnico en electrónica
+                                    </h3>
+
+                                    <p class="company">
+                                        SOLTEC ENERGÍAS RENOVABLES · Murcia
+                                    </p>
+
+                                </div>
+
+                                <span class="experience-type">
+                                    INFRASTRUCTURE
+                                </span>
+
+                            </div>
+
+
+                            <p class="experience-description">
+
+                                Administración de sistemas en
+                                producción y soporte técnico de
+                                laboratorio Solmate.
+
+                            </p>
+
+
+                            <div class="experience-skills">
+
+                                <span>VMware</span>
+                                <span>Linux</span>
+                                <span>SCADA</span>
+                                <span>NTP</span>
+                                <span>UPS</span>
+                                <span>Switches</span>
+                                <span>Hardware</span>
+
+                            </div>
+
+
+                            <ul class="experience-list">
+
+                                <li>
+                                    Diagnóstico, reparación y
+                                    reinstalación de servidores
+                                    en racks.
+                                </li>
+
+                                <li>
+                                    Reparación de electrónica,
+                                    reprogramación y pruebas
+                                    de calidad.
+                                </li>
+
+                                <li>
+                                    Mantenimiento y actualización
+                                    de sistemas SCADA.
+                                </li>
+
+                                <li>
+                                    Gestión de controladores,
+                                    incidencias y monitorización.
+                                </li>
+
+                                <li>
+                                    Configuración de switches,
+                                    servidores NTP y sistemas UPS.
+                                </li>
+
+                                <li>
+                                    Administración de VMware en
+                                    servidores.
+                                </li>
+
+                                <li>
+                                    Administración de Linux en
+                                    equipos cliente-HMI.
+                                </li>
+
+                                <li>
+                                    Elaboración de presupuestos,
+                                    informes y documentación técnica.
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- ROMACHO -->
+
+                    <article class="experience-card">
+
+                        <div class="experience-marker">
+                            04
+                        </div>
+
+
+                        <div class="experience-content">
+
+                            <div class="experience-top">
+
+                                <div>
+
+                                    <p class="experience-date">
+                                        2019 / 2017
+                                    </p>
+
+                                    <h3>
+                                        Técnico Informático
+                                    </h3>
+
+                                    <p class="company">
+                                        ROMACHO CENTRO COMARCAL · Guadix
+                                    </p>
+
+                                </div>
+
+                                <span class="experience-type">
+                                    SUPPORT
+                                </span>
+
+                            </div>
+
+
+                            <p class="experience-description">
+
+                                Prácticas correspondientes a los
+                                ciclos formativos de sistemas
+                                microinformáticos y administración
+                                de sistemas.
+
+                            </p>
+
+
+                            <div class="experience-skills">
+
+                                <span>Windows</span>
+                                <span>Hardware</span>
+                                <span>Apple</span>
+                                <span>Maintenance</span>
+
+                            </div>
+
+
+                            <ul class="experience-list">
+
+                                <li>
+                                    Montaje y puesta en marcha
+                                    de equipos informáticos.
+                                </li>
+
+                                <li>
+                                    Soporte y mantenimiento
+                                    de sistemas Windows.
+                                </li>
+
+                                <li>
+                                    Reparación de equipos Apple.
+                                </li>
+
+                                <li>
+                                    Mantenimiento y puesta en
+                                    marcha de equipos y aplicaciones.
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             SKILLS
+        ====================================== -->
+
+        <section
+            id="skills"
+            class="section section-dark"
+        >
+
+            <div class="container">
+
+
+                <div class="section-heading">
+
+                    <p class="section-number">
+                        03
+                    </p>
+
+                    <div>
+
+                        <p class="eyebrow">
+                            TECNOLOGÍAS
+                        </p>
+
+                        <h2>
+                            Stack técnico
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="skills-grid">
+
+
+                    <!-- VIRTUALIZACIÓN -->
+
+                    <article class="skill-card">
+
+                        <div class="skill-number">
+                            01
+                        </div>
+
+                        <h3>
+                            Virtualización
+                        </h3>
+
+                        <p>
+                            Gestión y soporte de entornos
+                            virtualizados.
+                        </p>
+
+                        <div class="skill-tags">
+
+                            <span>VMware</span>
+                            <span>VRops</span>
+                            <span>Horizon</span>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- BACKUP -->
+
+                    <article class="skill-card">
+
+                        <div class="skill-number">
+                            02
+                        </div>
+
+                        <h3>
+                            Backup & Recovery
+                        </h3>
+
+                        <p>
+                            Gestión, revisión y restauración
+                            de copias de seguridad.
+                        </p>
+
+                        <div class="skill-tags">
+
+                            <span>Veeam</span>
+                            <span>Commvault</span>
+                            <span>Recovery</span>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- MONITORING -->
+
+                    <article class="skill-card">
+
+                        <div class="skill-number">
+                            03
+                        </div>
+
+                        <h3>
+                            Monitoring
+                        </h3>
+
+                        <p>
+                            Supervisión de sistemas,
+                            aplicaciones y alertas.
+                        </p>
+
+                        <div class="skill-tags">
+
+                            <span>Nagios</span>
+                            <span>Centreon</span>
+                            <span>ControlUP</span>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- SISTEMAS -->
+
+                    <article class="skill-card">
+
+                        <div class="skill-number">
+                            04
+                        </div>
+
+                        <h3>
+                            Sistemas
+                        </h3>
+
+                        <p>
+                            Administración y soporte de
+                            sistemas Windows y Linux.
+                        </p>
+
+                        <div class="skill-tags">
+
+                            <span>Linux</span>
+                            <span>Debian</span>
+                            <span>Windows</span>
+                            <span>Windows Server</span>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- NETWORKING -->
+
+                    <article class="skill-card">
+
+                        <div class="skill-number">
+                            05
+                        </div>
+
+                        <h3>
+                            Networking
+                        </h3>
+
+                        <p>
+                            Configuración y soporte de
+                            infraestructura de red.
+                        </p>
+
+                        <div class="skill-tags">
+
+                            <span>Switches</span>
+                            <span>NTP</span>
+                            <span>Network Printers</span>
+                            <span>Cableado</span>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- SECURITY -->
+
+                    <article class="skill-card">
+
+                        <div class="skill-number">
+                            06
+                        </div>
+
+                        <h3>
+                            Seguridad
+                        </h3>
+
+                        <p>
+                            Monitorización y control de
+                            amenazas en sistemas.
+                        </p>
+
+                        <div class="skill-tags">
+
+                            <span>Carbon Black</span>
+                            <span>Cybersecurity</span>
+                            <span>TeamPass</span>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- SCADA -->
+
+                    <article class="skill-card">
+
+                        <div class="skill-number">
+                            07
+                        </div>
+
+                        <h3>
+                            SCADA
+                        </h3>
+
+                        <p>
+                            Mantenimiento y soporte de
+                            sistemas industriales.
+                        </p>
+
+                        <div class="skill-tags">
+
+                            <span>SCADA</span>
+                            <span>HMI</span>
+                            <span>Controllers</span>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- WEB -->
+
+                    <article class="skill-card">
+
+                        <div class="skill-number">
+                            08
+                        </div>
+
+                        <h3>
+                            Desarrollo Web
+                        </h3>
+
+                        <p>
+                            Desarrollo y mantenimiento de
+                            proyectos web.
+                        </p>
+
+                        <div class="skill-tags">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>WordPress</span>
+                            <span>Laravel</span>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             PROYECTOS
+        ====================================== -->
+
+        <section
+            id="proyectos"
+            class="section"
+        >
+
+            <div class="container">
+
+
+                <div class="section-heading">
+
+                    <p class="section-number">
+                        04
+                    </p>
+
+                    <div>
+
+                        <p class="eyebrow">
+                            PROYECTOS
+                        </p>
+
+                        <h2>
+                            Áreas de trabajo
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="projects-grid">
+
+
+                    <!-- PROJECT 1 -->
+
+                    <article class="project-card featured-project">
+
+                        <div class="project-top">
+
+                            <span class="project-index">
+                                01
+                            </span>
+
+                            <span class="project-status">
+                                INFRASTRUCTURE
+                            </span>
+
+                        </div>
+
+
+                        <div class="project-icon">
+                            ◉
+                        </div>
+
+
+                        <h3>
+                            Entornos virtualizados
+                        </h3>
+
+
+                        <p>
+
+                            Experiencia trabajando con
+                            infraestructuras virtualizadas
+                            mediante VMware, VRops y Horizon.
+
+                        </p>
+
+
+                        <div class="project-tech">
+
+                            <span>VMware</span>
+                            <span>VRops</span>
+                            <span>Horizon</span>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PROJECT 2 -->
+
+                    <article class="project-card">
+
+                        <div class="project-top">
+
+                            <span class="project-index">
+                                02
+                            </span>
+
+                            <span class="project-status">
+                                BACKUP
+                            </span>
+
+                        </div>
+
+
+                        <div class="project-icon">
+                            ◇
+                        </div>
+
+
+                        <h3>
+                            Backup & Recovery
+                        </h3>
+
+
+                        <p>
+
+                            Revisión, gestión y recuperación
+                            de copias de seguridad utilizando
+                            Veeam y Commvault.
+
+                        </p>
+
+
+                        <div class="project-tech">
+
+                            <span>Veeam</span>
+                            <span>Commvault</span>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PROJECT 3 -->
+
+                    <article class="project-card">
+
+                        <div class="project-top">
+
+                            <span class="project-index">
+                                03
+                            </span>
+
+                            <span class="project-status">
+                                MONITORING
+                            </span>
+
+                        </div>
+
+
+                        <div class="project-icon">
+                            ◎
+                        </div>
+
+
+                        <h3>
+                            Monitorización
+                        </h3>
+
+
+                        <p>
+
+                            Supervisión de infraestructuras,
+                            aplicaciones y alertas mediante
+                            Nagios, Centreon y ControlUP.
+
+                        </p>
+
+
+                        <div class="project-tech">
+
+                            <span>Nagios</span>
+                            <span>Centreon</span>
+                            <span>ControlUP</span>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PROJECT 4 -->
+
+                    <article class="project-card">
+
+                        <div class="project-top">
+
+                            <span class="project-index">
+                                04
+                            </span>
+
+                            <span class="project-status">
+                                SECURITY
+                            </span>
+
+                        </div>
+
+
+                        <div class="project-icon">
+                            ⬡
+                        </div>
+
+
+                        <h3>
+                            Seguridad IT
+                        </h3>
+
+
+                        <p>
+
+                            Control de amenazas y gestión
+                            de herramientas de seguridad
+                            en entornos empresariales.
+
+                        </p>
+
+
+                        <div class="project-tech">
+
+                            <span>Carbon Black</span>
+                            <span>TeamPass</span>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PROJECT 5 -->
+
+                    <article class="project-card">
+
+                        <div class="project-top">
+
+                            <span class="project-index">
+                                05
+                            </span>
+
+                            <span class="project-status">
+                                INDUSTRIAL
+                            </span>
+
+                        </div>
+
+
+                        <div class="project-icon">
+                            ⌁
+                        </div>
+
+
+                        <h3>
+                            Infraestructura SCADA
+                        </h3>
+
+
+                        <p>
+
+                            Mantenimiento y soporte de
+                            sistemas SCADA, HMI, switches,
+                            NTP, UPS y virtualización.
+
+                        </p>
+
+
+                        <div class="project-tech">
+
+                            <span>SCADA</span>
+                            <span>Linux</span>
+                            <span>VMware</span>
+                            <span>NTP</span>
+                            <span>UPS</span>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PROJECT 6 -->
+
+                    <article class="project-card">
+
+                        <div class="project-top">
+
+                            <span class="project-index">
+                                06
+                            </span>
+
+                            <span class="project-status">
+                                WEB
+                            </span>
+
+                        </div>
+
+
+                        <div class="project-icon">
+                            &lt;/&gt;
+                        </div>
+
+
+                        <h3>
+                            Desarrollo Web
+                        </h3>
+
+
+                        <p>
+
+                            Desarrollo de páginas web y
+                            proyectos con tecnologías
+                            frontend y backend.
+
+                        </p>
+
+
+                        <div class="project-tech">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>Laravel</span>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             FORMACIÓN
+        ====================================== -->
+
+        <section
+            id="formacion"
+            class="section section-dark"
+        >
+
+            <div class="container">
+
+
+                <div class="section-heading">
+
+                    <p class="section-number">
+                        05
+                    </p>
+
+                    <div>
+
+                        <p class="eyebrow">
+                            FORMACIÓN
+                        </p>
+
+                        <h2>
+                            Estudios y certificaciones
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="education-grid">
+
+
+                    <!-- ASIR -->
+
+                    <article class="education-card">
+
+                        <span class="education-year">
+                            2017 — 2020
+                        </span>
+
+                        <div class="education-icon">
+                            ◈
+                        </div>
+
+                        <h3>
+                            Técnico Superior en ASIR
+                        </h3>
+
+                        <p>
+                            Administración de Sistemas
+                            Informáticos en Red.
+                        </p>
+
+                        <span class="education-center">
+                            IES Padre Poveda · Guadix
+                        </span>
+
+                    </article>
+
+
+
+                    <!-- SMR -->
+
+                    <article class="education-card">
+
+                        <span class="education-year">
+                            2015 — 2017
+                        </span>
+
+                        <div class="education-icon">
+                            ◇
+                        </div>
+
+                        <h3>
+                            Técnico en SMR
+                        </h3>
+
+                        <p>
+                            Sistemas Microinformáticos
+                            y Redes.
+                        </p>
+
+                        <span class="education-center">
+                            IES Padre Poveda · Guadix
+                        </span>
+
+                    </article>
+
+
+
+                    <!-- CISCO -->
+
+                    <article class="education-card">
+
+                        <span class="education-year">
+                            CERTIFICACIONES
+                        </span>
+
+                        <div class="education-icon">
+                            ◎
+                        </div>
+
+                        <h3>
+                            Cisco
+                        </h3>
+
+                        <p>
+                            CCNA I y II Routing & Switching
+                            y CCNA Redes Básicas.
+                        </p>
+
+                        <span class="education-center">
+                            Cisco
+                        </span>
+
+                    </article>
+
+
+
+                    <!-- CYBERSECURITY -->
+
+                    <article class="education-card">
+
+                        <span class="education-year">
+                            CERTIFICACIÓN
+                        </span>
+
+                        <div class="education-icon">
+                            ⬡
+                        </div>
+
+                        <h3>
+                            Intro to Cybersecurity
+                        </h3>
+
+                        <p>
+                            Formación introductoria en
+                            ciberseguridad.
+                        </p>
+
+                        <span class="education-center">
+                            Cisco
+                        </span>
+
+                    </article>
+
+
+
+                    <!-- WEB -->
+
+                    <article class="education-card">
+
+                        <span class="education-year">
+                            FORMACIÓN
+                        </span>
+
+                        <div class="education-icon">
+                            &lt;/&gt;
+                        </div>
+
+                        <h3>
+                            Desarrollo Web
+                        </h3>
+
+                        <p>
+                            HTML5, CSS3, JavaScript,
+                            AJAX, PHP y MySQL.
+                        </p>
+
+                        <span class="education-center">
+                            Udemy
+                        </span>
+
+                    </article>
+
+
+
+                    <!-- ENGLISH -->
+
+                    <article class="education-card">
+
+                        <span class="education-year">
+                            FORMACIÓN
+                        </span>
+
+                        <div class="education-icon">
+                            A
+                        </div>
+
+                        <h3>
+                            Inglés
+                        </h3>
+
+                        <p>
+                            Curso de inglés básico.
+                        </p>
+
+                        <span class="education-center">
+                            Formación complementaria
+                        </span>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             OTRAS COMPETENCIAS
+        ====================================== -->
+
+        <section class="section">
+
+            <div class="container">
+
+
+                <div class="section-heading">
+
+                    <p class="section-number">
+                        06
+                    </p>
+
+                    <div>
+
+                        <p class="eyebrow">
+                            COMPETENCIAS
+                        </p>
+
+                        <h2>
+                            Más allá de la tecnología
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="competencies-grid">
+
+
+                    <div class="competency">
+
+                        <span class="competency-icon">
+                            ↗
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Resolución de problemas
+                            </h3>
+
+                            <p>
+                                Capacidad para analizar
+                                incidencias y buscar soluciones
+                                de forma autónoma.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="competency">
+
+                        <span class="competency-icon">
+                            ◉
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Trabajo en equipo
+                            </h3>
+
+                            <p>
+                                Comunicación con compañeros,
+                                clientes y diferentes áreas
+                                técnicas.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="competency">
+
+                        <span class="competency-icon">
+                            +
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Aprendizaje continuo
+                            </h3>
+
+                            <p>
+                                Interés constante por seguir
+                                ampliando conocimientos
+                                tecnológicos.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="competency">
+
+                        <span class="competency-icon">
+                            #
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Documentación técnica
+                            </h3>
+
+                            <p>
+                                Elaboración de procedimientos,
+                                informes y guías técnicas.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             CONTACTO
+        ====================================== -->
+
+        <section
+            id="contacto"
+            class="contact-section section-dark"
+        >
+
+            <div class="container">
+
+
+                <div class="contact-box">
+
+
+                    <div class="contact-content">
+
+                        <p class="eyebrow">
+                            07 · CONTACTO
+                        </p>
+
+
+                        <h2>
+                            ¿Hablamos?
+                        </h2>
+
+
+                        <p>
+
+                            Si buscas un perfil técnico para
+                            sistemas, infraestructura, soporte
+                            IT o administración de entornos,
+                            puedes contactar conmigo.
+
+                        </p>
+
+
+                        <div class="contact-links">
+
+                            <a
+                                href="mailto:informaticamendoza97@gmail.com"
+                                class="contact-link"
+                            >
+
+                                <span class="contact-label">
+                                    EMAIL
+                                </span>
+
+                                <span class="contact-value">
+                                    informaticamendoza97@gmail.com
+                                </span>
+
+                                <span class="contact-arrow">
+                                    →
+                                </span>
+
+                            </a>
+
+
+                            <a
+                                href="https://www.linkedin.com/in/alejandro-mendoza-rodríguez"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="contact-link"
+                            >
+
+                                <span class="contact-label">
+                                    LINKEDIN
+                                </span>
+
+                                <span class="contact-value">
+                                    linkedin.com/in/alejandro-mendoza-rodríguez
+                                </span>
+
+                                <span class="contact-arrow">
+                                    ↗
+                                </span>
+
+                            </a>
+
+
+							<a
+								href="tel:+34661015466"
+								class="contact-link"
+							>
+
+								<span class="contact-label">
+									TELÉFONO
+								</span>
+
+								<span class="contact-value">
+									661 015 466
+								</span>
+
+								<span class="contact-arrow">
+									→
+								</span>
+
+</a>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-terminal">
+
+                        <div class="terminal-header">
+
+                            <div class="terminal-buttons">
+
+                                <span></span>
+                                <span></span>
+                                <span></span>
+
+                            </div>
+
+                            <span class="terminal-title">
+                                contact.sh
+                            </span>
+
+                        </div>
+
+
+                        <div class="terminal-body">
+
+                            <p>
+                                $ echo "Let's connect"
+                            </p>
+
+                            <p class="terminal-output">
+                                Buscando nuevas oportunidades...
+                            </p>
+
+                            <p class="terminal-success">
+                                ✓ READY
+                            </p>
+
+                            <p>
+                                $ mail --status
+                            </p>
+
+                            <p class="terminal-success">
+                                ● AVAILABLE
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
+    <footer class="site-footer">
+
+        <div class="container footer-container">
+
+
+            <div>
+
+                <p class="footer-logo">
+                    &lt;AMR /&gt;
+                </p>
+
+                <p class="footer-text">
+                    Alejandro Mendoza Rodríguez
+                </p>
+
+            </div>
+
+
+            <p class="footer-copy">
+                © 2026 · Técnico de Sistemas Informáticos
+            </p>
+
+
+            <a
+                href="#inicio"
+                class="back-top"
+            >
+                ↑
+            </a>
+
         </div>
+
     </footer>
+
 </body>
 </html>
